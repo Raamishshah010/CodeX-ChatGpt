@@ -13,6 +13,8 @@ const configration = new Configuration({
     apiKey: process.env.OPENAI_API_KEY
 });
 
+// console.log(configration);
+
 const openai = new OpenAIApi(configration);
 const app = express();
 
